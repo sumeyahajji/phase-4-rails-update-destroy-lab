@@ -46,3 +46,4 @@ class PlantsController < ApplicationController
     params.permit(:name, :image, :price, :is_in_stock)
   end
 end
+
